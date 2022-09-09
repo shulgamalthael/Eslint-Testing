@@ -1,18 +1,23 @@
 {
-  "name": "eslint-testing",
-  "version": "0.1.0",
-  "description": "Eslint Testing.",
-  "author": "ONi",
-  "license": "ISC",
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
-  "devDependencies": {
-    "eslint": "^8.23.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
-  }
+    "name": "eslint-testing",
+    "version": "0.1.0",
+    "description": "Eslint Testing.",
+    "author": "ONi",
+    "license": "ISC",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.19.0",
+        "@babel/eslint-parser": "^7.18.9",
+        "@babel/preset-env": "^7.19.0",
+        "babel": "^6.23.0",
+        "core-js": "^3.25.1",
+        "eslint": "^8.23.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1"
+    }
 }

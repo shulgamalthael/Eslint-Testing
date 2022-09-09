@@ -9,6 +9,7 @@ module.exports = {
     node: true,
     browser: true,
   },
+  parser: "@babel/eslint-parser",
   parserOptions: {
     ecmaVersion: 13,
     sourceType: MODULE,
