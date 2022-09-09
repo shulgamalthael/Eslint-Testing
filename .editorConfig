@@ -1,0 +1,16 @@
+# most
+root = true  
+
+[*]
+
+# new line settings 
+end_of_line = lf
+insert_final_new_line = true
+
+# styles for /(Java|Type)Script/ files.  
+[*.${js, jsx, ts, tsx}]
+charset = utf-8
+
+# spaces
+indent_style = tab
+indent_size = 4
